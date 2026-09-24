@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Mogi das Cruzes</title>
+    <link rel="stylesheet" href="styleclima.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Temperatura atual em Mogi das Cruzes</h1>
+
+    <p id="temperatura">Aguardando temperatura...</p>
+    <hr>
+
+    <!--API Mundial-->
+
+    <label for="">Digite a cidade</label>
+    <input type="text" id="city" placeholder="Digite a cidade">
+    <p id="tempMundial">Aguardando temperatura da cidade...</p>
+    <button onclick="getWeather()">Pesquisar</button>
+    <a href="dollar.html"><button onclick=""> avançar</button></a>
+    <a href="clima.html"><button onclick=""> voltar</button></a>
+
+    <script src="scriptclima.js"></script>
+</body>
+</html>
